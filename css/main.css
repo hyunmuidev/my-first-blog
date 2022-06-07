@@ -1,0 +1,63 @@
+body {
+  font-family: "Dongle", sans-serif;
+  /* font-family: "Gothic A1", sans-serif; */
+  font-size: 16px;
+}
+
+.header {
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-bottom: 1px solid #a9a7a7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.post-list {
+  line-height: 1.2;
+}
+
+.post-list li {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  margin-top: 15px;
+}
+
+.post-info {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  color: #666;
+}
+
+.post-date {
+  margin-right: 20px;
+}
